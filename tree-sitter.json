@@ -1,0 +1,26 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "celestia_record_data",
+      "camelcase": "CelestiaRecordData",
+      "scope": "source.celestia-record-data",
+      "file-types": [
+        "dat",
+        "xyz",
+        "xyzv",
+        "q"
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "description": "Tree-sitter parser family for Celestia Record Data documents",
+    "authors": [
+      {
+        "name": "Tobias Feigel"
+      }
+    ],
+    "license": "MIT"
+  }
+}
